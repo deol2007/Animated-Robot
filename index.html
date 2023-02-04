@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background = "#000000">
+
+        <a-entity position="0 4 5">
+            <a-camera></a-camera>
+        </a-entity>
+        <a-entity>
+            <a-box position="-2 1 -3" rotation="0 0 0" color="cyan" height="2" shadow></a-box>
+        </a-entity>
+        <a-entity>
+            <a-box position="0 1 -3" rotation="0 0 0" color="cyan" height="2" shadow></a-box>
+        </a-entity>
+        <a-entity>
+            <a-box position="-1 4 -3" rotation="0 0 0" color="orange" height="4" width="3" depth="1.5" shadow></a-box>
+        
+        </a-entity>
+        <a-sphere position="-1 7 -3" radius="1.25" color="green"></a-sphere>  
+        </a-entity>
+
+        <a-entity>
+            <a-box position="-3 4 -3" rotation="0 0 0" color="blue" height="3.5" shadow></a-box>
+        </a-entity>
+        <a-entity>
+            <a-box position="1 4 -3" rotation="0 0 0" color="blue" height="3.5" shadow></a-box>
+        </a-entity>
+
+        <a-sphere
+            color="#000"
+            radius="0.15"
+            position="-0.3 6.5 0.9"
+            animation="property: position; from:-0.3 6.5 0.9;to: -0.4 8 0.9;dir:alternate;loop: true; dur: 1000;"
+            ></a-sphere>
+            
+        <a-sphere
+            color="#000"
+            radius="0.15"
+            position="-0.8 6.5 0.9"
+            animation="property: position; from:-0.8 6.5 0.9;to: -0.7 8 0.9;dir:alternate;loop: true; dur: 1000;"
+            ></a-sphere>
+</a-scene>
+</body>
+
+</html>
